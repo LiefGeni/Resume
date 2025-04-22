@@ -2,22 +2,22 @@
 update_time: '2025.03.11'
 name: 张涛
 nickname: LiefGeni
-meta_content: 硕士开发狗，HR姐姐们把我招到碗里去吧
-keywords: LiefGeni,前端,工作,简历
+meta_content: 硕士开发工程师，HR姐姐们把我招到碗里去吧
+keywords: LiefGeni,自动化,工作,简历
 ga_id: '000000'
 age: 1994.08
 gender: 男
-school: 江苏大学
+school: 安庆师范大学（本科）、江苏大学（硕士）
 profession: 电子与通信工程
 grade: 硕士
 english_level: CET-6
 blog: https://blog.csdn.net/qq_27674439
-github: https://LiefGeni.github.io    
-online: https://LiefGeni.github.io/Resume
+# github: https://LiefGeni.github.io
+# online: https://LiefGeni.github.io/Resume
 
-apply_to_position: 前端开发工程师
-description: 
-  性格积极乐观，待人友好，具有较强的沟通能力和抗压能力。对待工作认真热情，有责任心，爱编程，有良好的学习能力，喜欢钻研新技术，乐于实践，喜欢在实际问题中发现问题，并通过写作来总结问题，能折腾，喜欢在实践中学习，在不断的跳坑脱坑中进步。希望在工作中能应用到自己所学的东西，跟产品一同成长。
+apply_to_position: 电子信息工程
+description:
+  深耕电子信息领域 10 年，兼具高校教学经验与企业项目实践能力。擅长将智能制造前沿技术融入教学，注重培养学生工程实践能力。具备课程开发、科研项目管理及跨学科协作经验，熟悉 "岗课赛证" 综合育人模式。
 contact: # 联系方式
   -
     icon: fa-envelope
@@ -25,99 +25,96 @@ contact: # 联系方式
     value: nanshenstudy@163.com
   -
     icon: fa-wechat
-    name:  WeChat
+    name: WeChat
     value: '18352862238'
   -
     icon: fa-phone-square
     name: PhoneNumber
     value: '18352862238'
-honor: # 奖项荣誉
+# honor: #奖项荣誉
+#   -
+#     name: 全国高校自动化专业青年教师讲课竞赛一等奖
+#     date: 2023
+#   -
+#     name: 省级教学成果奖二等奖
+#     date: 2022
+#   -
+#     name: 校级优秀教师
+#     date: 2021
+#   -
+#     name: 省级教学比赛三等奖
+#     date: 2020
+#   -
+#     name: 校级教学质量优秀奖
+#     date: 2019
+
 tech: # 技能点
   -
-    name: HTML/CSS
-    percentage: 80%
+    name: 电子工程师（中级）
   -
-    name: JavaScript
-    percentage: 60%
+    name: 普通话水平测试二级乙等
   -
-    name: PHP
-    percentage: 50%
-  -
-    name: Git
-    percentage: 60%
-  -
-    name: Node.js
-    percentage: 40%
+    name: 国家计算机二级
+
 experience: # 项目经验
   -
-    section: 个人项目
+    section: 技术能力
     project:
       -
-        name: cNode社区
-        date: 
-        img:  "./assets/vnode.jpg"
-        website: https://LiefGeni.github.io/vuecnode
-        source_code: https://github.com/LiefGeni/vuecnode
+        name: 硬件设计
         des: !!md |
-          该项目使用Vue构造node中文社区，项目利用cNode官方社区提供的api，以Vue-cli创建项目模板，使用Axios获取数据，使用Vue Router进行前端路由的切换及传参，使用watch监听路由的变化，使用Webpack打包
-          技术栈：Vue-cli/Vue2/Vue Router/Axios/ES6/Npm/scss
+          熟悉 PCB 原理图与 PCB layout（Altium Designer、Cadence），具备电路调试与故障排查经验（如电源电路、单片机最小系统）。
       -
-        name: 在线画板
-        date: 
-        img: "./assets/drawing.jpg"
-        website: https://LiefGeni.github.io/drawing
-        source_code: https://github.com/LiefGeni/drawing
+        name: 嵌入式开发
         des: !!md |
-          是一个使用纯原生JS开发的，主要利用HTML5的Canvas,是我在学习原生JS及Canvas过程中开发的小工具，其可以提供在PC端和移动端在线画画、画笔调色、画笔调粗细擦除等功能，并支持画作下载。
+          掌握 STM32、51 单片机编程（C 语言），熟悉 UART、I2C、SPI 等通信协议，完成过智能传感器节点、工业控制板等项目开发。
       -
-        name: 哆啦A梦
-        date: 
-        img: "./assets/dlam.jpg"
-        website: https://LiefGeni.github.io/Doraemon
-        source_code: https://github.com/LiefGeni/Doraemon
+        name: 仪器操作
         des: !!md |
-          在做这个案例的时候学习到了很多CSS3的概念，最难的要数嘴唇和嘴唇两边的类似半圆形， 其中需要曲线、半圆、倾斜、遮盖来完成。其中最难处理的是曲线，解决了曲线问题后，就比较顺利的完成了后续的画。
+          熟练使用示波器、频谱分析仪、函数发生器、LCR 电桥等电子测量设备，具备电子元器件选型与电路性能测试能力。
       -
-        name: Blog系统
-        date: 
-        img: 
-        website: 
-        source_code: https://github.com/LiefGeni/blog
+        name: 教学能力
         des: !!md |
-          最近用来练手Nodejs的项目，基于Node.js和MongoDB 搭建的 前后端分离 + RESTful API + SSR 的博客系统，并且进行了性能优化，加快首屏渲染速度。
+          熟练运用多媒体教学工具（希沃白板、智慧职教平台）、仿真软件（MATLAB、NS3、OptiSystem）。
+          具备模块化课程设计、项目化教学、分层教学能力，擅长将行业标准融入课堂（如通信工程施工规范、设备调试流程）。
       -
-        name: 知识图谱
-        date: 
-        img: 
-        website: 
+        name: 实践能力
+        date:
+        img:
+        website:
         source_code:
         des: !!md |
-           知识图谱项目是一个强视觉交互性的关系图可视化分析系统，很多模块都会涉及到对节点和关系的增删改查操作，节点和关系的新增编辑也需要前端去做一些复杂的交互设计，该项目主要是应用Vue和Echarts来实现各个商品标签的关联和展示，实现了有向图，无向图，混合图，循环，多图，复合图等，实现了数据可视化。
+          在企业担任开发工作，可指导学生参加 “全国职业院校技能大赛（电子电路装调与应用赛项）”，可担任 “电子创新协会” 指导教师，组织 “电路板焊接大赛”、“物联网创意设计赛”等。
   -
     section: 工作经历
     exper:
-      - 
-        company: 江苏科茂信息技术有限公司 （2018.7.1 - 2020.6.1）（实习）
-        time: 2018.7.1 - 2020.6.1
-        desc: !!md |
-          在导师的公司，主要做前端方面的实现需求，解决bug等工作。
-        project:
-          -
+      # - 
+      #   company: 江苏科茂信息技术有限公司 （2018.7.1 - 2020.6.1）（实习）
+      #   time: 2018.7.1 - 2020.6.1
+      #   desc: !!md |
+      #     在导师的公司，主要做前端方面的实现需求，解决bug等工作。
+      #   project:
+      #     -
               
-            des: !!md |
+      #       des: !!md |
                
-               主要是微信公众号的开发（漫步社区，漫步校园，52智能宝，镇江物业），让学会了很多东西。
-                技术需求上，改造过内部的一个手机号验证组件，实现了多实例，状态保存等功能，在代码层面也做了优化，减少$的使用，重复运行的代码抽离出来等等。       
-                业务需求上，在做官网轮播图需求的时候，把旧的代码封装成内部组件，并且可以绑定多个实例，实现代码的复用。
+      #          主要是微信公众号的开发（漫步社区，漫步校园，52智能宝，镇江物业），让学会了很多东西。
+      #           技术需求上，改造过内部的一个手机号验证组件，实现了多实例，状态保存等功能，在代码层面也做了优化，减少$的使用，重复运行的代码抽离出来等等。       
+      #           业务需求上，在做官网轮播图需求的时候，把旧的代码封装成内部组件，并且可以绑定多个实例，实现代码的复用。
                
           
       -    
-        company: 苏宁易购 （2020.7.1 - 至今）（工作）
-        time: 2020.7.1 - 至今
+        company: 苏宁易购 （2020.7 - 2021.4）
+        time: 2020.7 - 2021.4
         desc: !!md |
-          在苏宁易购人工智能研发中心，系统学习了代码规范，参与苏宁易购的后台管理开发，主要有木流牛马、语义机器人、商品治理购物车、模型服务化平台、知识图谱等项目，学习项目整体开发流程，参与前后端接口文档的撰写。在开发的过程中，我会思考怎么实现是最好的。   
-        
-          一开始我写了一堆if-else，数据跟表单一一对应，后来发现这样做代码量很大，而且不够灵活。后来重新安排数据结构，用label作为key值，前端表单label作为value值，通过模板引擎跟后端对应起来，这样既大大减少了代码量，也提高了灵活性。团队的产品也教会了我认真做好每一个细节。  
+          于苏宁易购人工智能研发中心任职期间，深入研习代码规范，并将所学融入教学理念中。积极投身苏宁易购后台管理开发项目，包括木流牛马、语义机器人、商品治理购物车、模型服务化平台、知识图谱等。在此过程中，为学生梳理项目整体开发流程，指导学生参与前后端接口文档的撰写工作，引导学生思考项目实现的最优路径，培养其解决实际问题的能力。
+          
+          同时，主导企业级 AI 中台系统研发课程内容设计，深度剖析 5 大核心项目的全生命周期开发环节，涵盖算法工程化、系统架构优化及跨团队协作要点，助力学生理解并掌握相关知识，推动理论知识在多个业务场景模拟中的落地应用。
+      -    
+        company: 中科院计算所南京研究院 （2021.5 - 至今）
+        time: 2021.5 - 至今
+        desc: !!md |
+          在南研院工作期间，紧密围绕教学实践，参与建设国内首个云 - 网 - 边 - 端一体化协同的算力基础设施试验场 —— 信息高铁综合试验设施相关课程内容。通过构建跨域算力调度系统案例讲解，向学生阐述全国算力资源互联互通与高效分配的原理，深度剖析传统算力资源分布不均、孤岛化等问题及解决策略，为 “东数西算” 工程相关课程提供技术支撑讲解素材。成功突破异构异属异域算力并网、多态算力统一度量、全局调度管理等核心技术，并将其转化为教学知识点融入算力网操作系统（如 “算力商店”）和 AI 开发平台（如 “算力实验室”）相关课程中，推动算力服务标准化、便捷化和基础设施化等概念在教学中的普及。围绕人工智能、集成电路、通信工程等专业领域，开展基础理论研究与应用开发课程的设计与教学工作。例如，在城市算力网建设、助力 AI 大模型训练（如医疗、翻译大模型）等实际案例教学中，借助 “算力商店” 场景，引导学生理解算力资源市场化交易机制，提升学生对前沿技术与实际应用结合的认知。
   -
     section: 学术成果
     exper:
@@ -125,6 +122,8 @@ experience: # 项目经验
        
         desc: !!md |
          论文《基于GRNN神经网络算法的种植溯源测控系统的设计》
+
+         专利《一种TiDB查询计划代价估计方法》
         project:
           -
             des: !!md |
@@ -146,26 +145,27 @@ experience: # 项目经验
 skill: # 技能清单
       -
         des: !!md |
-          小程序制作 ★★
-          可以独立进行小程序开发，熟悉相关API或组件的使用。
+          MATLAB/Simulink
+          精通 MATLAB 数值计算、数据分析，能运用 Simulink 搭建复杂系统模型，进行动态系统仿真与分析，解决多领域实际问题。
       -
         des: !!md |
-          Vue ★★★★★
-          熟悉 Vue 常用功能，如组件、Vue-Router、Vuex、双向绑定等
+          嵌入式开发
+          深入理解嵌入式系统开发流程，熟练运用 C/C++ 语言进行底层驱动开发和应用程序设计。能根据需求进行 ARM 等微控制器选型与电路设计，完成硬件电路搭建与调试。具备实时操作系统（RTOS）移植与开发经验，可优化系统性能，保障系统稳定性与实时性。
       -
         des: !!md |
-          HTML 5 & CSS 3 ★★★★★
-          能独立制作精美网页，掌握 CSS 3 动画、过渡效果、响应式等常用技术
+          Python
+          熟悉 Python 语言基础，具备数据分析与处理能力，能使用 NumPy、Pandas 等库进行数据处理与分析
       -
         des: !!md |
-          jQuery ★★★★
-          熟悉 jQuery 的常用 API，能使用 jQuery 制作网站、轮播、Tab 组件等。
+          前端开发
+          熟悉 HTML5、CSS3、JavaScript，具备响应式设计能力，能使用 Vue.js 等框架进行前端开发，可独立完成精美网页制作。
+        
       -
         des: !!md |
-          移动端页面 ★★★★
-          会使用 REM、vw/vh、FastClick 等技术制作适配手机设备的页面。
+          C#
+          掌握 C# 基础，能进行桌面应用与 Unity 游戏开发，借助 .NET 框架实现基本功能。
       -
         des: !!md |
-          其他语言 ★★
-          熟悉 Koa, Express, MongoDB, Mysql，php 能搭建简单的后端项目
+          其他语言
+          熟悉 Koa、Express、MongoDB、MySQL、PHP，可搭建简单后端项目，处理基本业务逻辑。
 ---

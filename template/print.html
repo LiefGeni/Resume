@@ -1,6 +1,8 @@
 {% extends 'base.html' %}
 {% block body_class %}print{% endblock %}
 {% block main %}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/assets/custom-styles.css">
 <div class="container">
     <div class="sidebar">
         <div class="title">
@@ -59,9 +61,9 @@
                 {% for item in tech %}
                 <dd>
                     <div class="skill-name">{{ item.name }}</div>
-                    <div class="skill-bar-wrap">
+                    <!-- <div class="skill-bar-wrap">
                         <div class="skill-bar" style="width: {{ item.percentage }}"></div>
-                    </div>
+                    </div> -->
                 </dd>
                 {% endfor %}
             </li>
@@ -90,7 +92,7 @@
             <li class="experience">
                 <dt><i class="fa fa-bookmark"></i>Experience. 项目经验</dt>
                 {% for exp in experience %}
-                    {% if exp.section == '个人项目' %}
+                    {% if exp.section == '技术能力' %}
                         <h2 class="exp-title">{{exp.section}}</h2>
                         <ul class="exp">
                             {% for item in exp.project %}
