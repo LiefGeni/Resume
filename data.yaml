@@ -63,6 +63,14 @@ experience: # 项目经验
           
     #  技术栈：Vue-cli/Vue2/Vue Router/Axios/ES6/Npm/scss
       -
+        name: 在线画板
+        date: 
+        img: "./assets/drawing.jpg"
+        website: https://LiefGeni.github.io/drawing
+        source_code: https://github.com/LiefGeni/drawing
+        des: !!md |
+          是一个使用纯原生JS开发的，主要利用HTML5的Canvas,是我在学习原生JS及Canvas过程中开发的小工具，其可以提供在PC端和移动端在线画画、画笔调色、画笔调粗细擦除等功能，并支持画作下载。
+      -
         name: 哆啦A梦
         date: 
         img: "./assets/dlam.jpg"
