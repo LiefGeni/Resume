@@ -96,7 +96,7 @@
                         <h2 class="exp-title">{{exp.section}}</h2>
                         <ul class="exp">
                             {% for item in exp.project %}
-                            <li>
+                            <li {% if item.name == '计算服务平台' %}class="page-break-before"{% endif %}>
                                 <div class="circle"></div>
                                 <h4>{{ item.name }} {{ item.date }}
                                 {% if item.website %}
