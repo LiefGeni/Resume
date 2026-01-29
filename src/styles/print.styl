@@ -1,5 +1,8 @@
 body.print
   min-width 0
+  background #f0f2f1
+  margin 0
+  padding 0
   .container 
     width 1080px
     position relative
@@ -26,14 +29,16 @@ body.print
     float right
     left 0
     width 750px
-    height auto
+    min-height 100vh
     padding 10px 20px 10px 20px
     box-sizing border-box
     page-break-inside avoid
+    background #f0f2f1
   
   .page-break-before
     page-break-before always
-    margin-top 50px
+    padding-top 30px !important
+    margin-top 0
   .main-info > li 
     padding-top 10px
   .main-info dt 
